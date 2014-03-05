@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Feedback Form</title>
+</head>
+<body>
+<a href="tictactoe.html">Game!</a><br>
+<a href="Registration.html">Register!</a><br>
+<a href="FAQ.html">Frequently Asked Questions</a><br>
+<p><b><font size="10">Please enter the required information below</font></b></p>
+<form id="ContactUs">
+First Name: <input text="text" name="firstname"><br>
+Last Name: <input text="text" name="lastname"><br>
+Email: <input text="text" name="email">
+<script>
+$("#commentForm").validate();
+</script>
+</form>
+<p><b>Problem</b></p>
+<form>
+<input type="radio" name="problem" value="error">Website error<br>
+<input type="radio" name="problem" value="other">Other<br>
+<script>
+$("#commentForm").validate();
+</script>
+</form>
+<textarea rows="20" cols="50">
+</textarea><br>
+<p><b>Note:</b>Please make sure all information is correct before hitting submit.</p>
+<button type="button">Submit</button>
+</body>
+</form>
